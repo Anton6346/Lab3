@@ -1,15 +1,21 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
     <title>@ViewData["Title"]</title>
 </head>
 <body>
     <nav>
         <a href="/">Home</a> |
-        <a href="/Account/Login">Login</a> |
-        <a href="/Account/Profile">Profile</a>
+        <a href="/Account/Register">Register</a> |
+        <a href="/Account/Login">Login</a>
     </nav>
+
     <hr />
+
     @RenderBody()
+
+    <!-- ВАЖЛИВО: секція для валідації -->
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
