@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Lab3_OAuth_MVC/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "7.0.12"
+        },
+        "runtime": {
+          "Lab3_OAuth_MVC.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/7.0.12": {
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "7.0.12.0",
+            "fileVersion": "7.0.1223.47922"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab3_OAuth_MVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Google/7.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9rn7aZpSWLf6P2yUAXeY8KKwAkAyTVQDQJzGNXN6ESObEim0Qt7CKnhlBvtOdxmX2BJc5rEmCHmvUwPCX/JKEA==",
+      "path": "microsoft.aspnetcore.authentication.google/7.0.12",
+      "hashPath": "microsoft.aspnetcore.authentication.google.7.0.12.nupkg.sha512"
+    }
+  }
+}
